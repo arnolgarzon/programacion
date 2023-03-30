@@ -1,0 +1,35 @@
+.navbar {
+    background: rgb(186,24,10);
+    background: linear-gradient(90deg, rgba(186,24,10,0.09287464985994398) 0%, rgba(5,175,245,0.21612394957983194) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.titulo {
+    display: flex;
+    flex: 1 1 50%;
+    width: 50%;
+    height: auto;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    font-size: 25px;
+}
+
+
+.menu {
+    flex: 1 1 50%;
+    width: 50%;
+    color: #fff;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li {
+    flex: 1 1 25%;
+    width: 50%;
+}
